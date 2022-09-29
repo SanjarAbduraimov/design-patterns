@@ -4,7 +4,7 @@ class Coffee {
   public static Create(coffeType: CoffeeType) {
     const CoffeeTypeReflect = {};
     if (!Reflect.has(CoffeeTypeReflect, coffeType)) {
-      
+
     }
     switch (coffeType) {
       case CoffeeType.Americano:
@@ -54,4 +54,6 @@ class Coffee {
 const myMorningCoffee = Coffee.Create(CoffeeType.Americano);
 console.log(myMorningCoffee);
 console.log(myMorningCoffee);
-console.log(myMorningCoffee);
+console.log("Salom");
+
+
