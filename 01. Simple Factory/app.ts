@@ -54,3 +54,4 @@ class Coffee {
 const myMorningCoffee = Coffee.Create(CoffeeType.Americano);
 console.log(myMorningCoffee);
 console.log(myMorningCoffee);
+console.log(myMorningCoffee);
